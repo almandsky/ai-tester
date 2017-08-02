@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="docs/ai-tester-logo-1024.png" alt="Logo" width='200px' height='200px'/>
+    <img src="docs/logo.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
 # AI Tester
