@@ -1,6 +1,6 @@
 ---
 title: "Introducing AI Tester"
-cover: "/logos/ai-tester-logo-1024.png"
+cover: "/logos/logo-banner.png"
 category: "ai-tester"
 tags:
 
