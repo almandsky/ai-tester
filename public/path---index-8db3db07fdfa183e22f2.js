@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e42603000],{"./node_modules/json-loader/index.js!./.cache/json/index.json":function(e,t){e.exports={data:{allMarkdownRemark:{edges:[{node:{fields:{slug:"/introducing-ai-tester"},excerpt:"As a developer, we want to focus on the development effort for the features.  If AI can read the code we write, and analyze the code, and...",timeToRead:1,frontmatter:{title:"Introducing AI Tester",tags:["ai-tester","ai","testing"],cover:"/logos/logo-banner.png",date:"08/01/2017"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-8db3db07fdfa183e22f2.js.map
