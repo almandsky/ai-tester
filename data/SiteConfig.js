@@ -8,7 +8,7 @@ module.exports = {
   siteDescription: "You code, AI test your code", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1863270957324034", // FB Application ID for using app insights
-  siteGATrackingID: "UA-32696506-1", // Tracking code ID for google analytics.
+  siteGATrackingID: "UA-32696506-2", // Tracking code ID for google analytics.
   disqusShortname: "ai-tester", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Sky Chen", // Username to display in the author segment.
