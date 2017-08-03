@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-material",
-  "description": "GatsbyJS Material Blog theme.",
-  "version": "1.1.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "name": "ai-tester",
+  "description": "AI Tester",
+  "version": "0.0.1",
+  "author": "Sky Chen",
   "dependencies": {
     "babel-plugin-lodash": "^3.2.11",
     "font-awesome": "^4.7.0",
@@ -53,7 +53,7 @@
     "stylelint-config-standard": "^17.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": ["ai", "test", "testing", "tester", "automation"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
