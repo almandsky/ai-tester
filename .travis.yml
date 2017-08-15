@@ -26,6 +26,9 @@ branches:
   only:
   - master
 before_install:
+- openssl aes-256-cbc -K $encrypted_8be1d4350cb7_key -iv $encrypted_8be1d4350cb7_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 - openssl aes-256-cbc -K $encrypted_ea8f0c217541_key -iv $encrypted_ea8f0c217541_iv
   -in .travis/travis_rsa.enc -out ~/.ssh/travis_rsa -d
 - chmod 600 ~/.ssh/travis_rsa
+- chmod 600 ~/.ssh/id_rsa
