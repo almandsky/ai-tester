@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/almandsky/ai-tester.svg?branch=master)](https://travis-ci.org/almandsky/ai-tester)
+
 <div align="center">
     <a href="https://ai-tester.com" target="_blank">
         <img src="docs/logo.png" alt="Logo" width='200px' height='200px'/>
