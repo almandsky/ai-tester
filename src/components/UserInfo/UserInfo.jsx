@@ -42,9 +42,9 @@ class UserInfo extends Component {
           subtitle={
             userTwitter
               ? <Follow
-                  username={userTwitter}
-                  options={{ count: expanded ? "none" : "none" }}
-                />
+                username={userTwitter}
+                options={{ count: expanded ? "none" : "none" }}
+              />
               : "Author"
           }
         />
