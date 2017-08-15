@@ -13,7 +13,7 @@ if [ $TRAVIS_BRANCH == "master" ] ; then
     git config user.email "travis@ai-tester.com"
 
     # commit compressed files and push it to remote
-    rm -f .gitignore
+    # rm -f .gitignore
     # cp .travis/deployignore .gitignore
     git add .
     git status # debug
@@ -30,7 +30,7 @@ elif [ $TRAVIS_BRANCH == "staging" ] ; then
     git config user.email "travis@ai-tester.com"
 
     # commit compressed files and push it to remote
-    rm -f .gitignore
+    # rm -f .gitignore
     # cp .travis/deployignore .gitignore
     git add .
     git status # debug
