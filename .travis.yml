@@ -7,9 +7,6 @@ notifications:
   email: false
 node_js:
   - '7'
-before_install:
-  - openssl aes-256-cbc -K $encrypted_b0b2958c016f_key -in .travis/travis_rsa.enc -out ~/.ssh/travis_rsa -d
-  - chmod 600 ~/.ssh/travis_rsa
 before_script:
   - npm prune
 script:
