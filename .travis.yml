@@ -7,8 +7,6 @@ notifications:
   email: false
 node_js:
 - '7'
-before_script:
-- npm prune
 script:
 - npm run lint:js
 - npm run lint:md

@@ -7,9 +7,9 @@ if [ $TRAVIS_BRANCH == "master" ] ; then
 
     # setup ssh agent, git config and remote
     eval "$(ssh-agent -s)"
-    # ssh-add ~/.ssh/travis_rsa
-    ssh-add ~/.ssh/id_rsa
-    ssh almandsky@192.241.204.199 './deploy.sh'
+    ssh-add ~/.ssh/travis_rsa
+    # ssh-add ~/.ssh/id_rsa
+    ssh -o "StrictHostKeyChecking no" almandsky@192.241.204.199 "./deploy.sh"
     # git remote add deploy "travis@192.241.204.199:/var/www/ai-tester.com"
     # git config user.name "Travis CI"
     # git config user.email "travis@ai-tester.com"
