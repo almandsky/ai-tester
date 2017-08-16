@@ -8,8 +8,7 @@ notifications:
 node_js:
 - '7'
 script:
-- npm run lint:js
-- npm run lint:md
+- npm run test
 after_success:
 - curl -Lo travis_after_all.py https://git.io/travis_after_all
 - python travis_after_all.py

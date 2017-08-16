@@ -12,7 +12,7 @@ tags:
 
 date: "08/15/2017"
 ---
-## Get started from building a blog Web site
+# Get started from building a blog Web site
 
 To start with this [AI-Tester](https://ai-tester.com) project, the first step is to setup a blog site so that I can write down the lesson learned and experience gained somewhere, and these experiences can be share with others.
 
@@ -24,15 +24,11 @@ Here are the requirements for the blog sites for me:
 
 After some research, the [Gastby JS](https://www.gatsbyjs.org/) seems like a good framework to start with.  Because I can focus on the content, and still have the flexibility to customize the site I need.
 
-## The Preparation
+# Create your own server
 
-The first step is to [setup the server in Digitalocean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04).  
+You can refer to my previous post to [setup your SSL and http2 enabled server](/setup-ssl-and-http-2-enabled-server).
 
-The next step is to [setup the SSL Cert in the Nginx server](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04).
-
-I will document the more detail steps on how to setup the Nginx rules for the Gatsby node server instance later.
-
-## Create your own Gatsby repo
+# Create your own Gatsby repo
 
 The setup of the Gatsby is very easy.  Firstly, you need to install the `gatsby-cli`:
 
@@ -50,5 +46,9 @@ npm run serve
 ```
 
 Then what you need to do is to link the newly created project to a git repo.  Then you are good to go.
+
+Because I am using the Digitalocean VPS, so the default swap file size is about 500mb, which is not enough to install the Gatsby npm package, and also when you run the `gatsby build` will fail due to not enough swap file size.
+
+To fix this issue, you can increase the swap file size: [npm install got killed in digitalocean instance](https://github.com/almandsky/lesson-learned/blob/master/docs/npm.md#npm-install-got-killed-in-digitalocean-instance)
 
 
