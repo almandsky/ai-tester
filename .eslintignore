@@ -1,2 +1,4 @@
-public/
-static/
+public
+static
+.cache
+content
