@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cbd93689-a66f-494f-9349-5838e5a5881b/deploy-status)](https://app.netlify.com/sites/stupefied-lichterman-7bdbca/deploys)
+
 [![Build Status](https://travis-ci.org/almandsky/ai-tester.svg?branch=master)](https://travis-ci.org/almandsky/ai-tester)
 
 <div align="center">
